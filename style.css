@@ -1,0 +1,174 @@
+/*  Basic Styling */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.header-image {
+    background-size: cover;
+    max-width: 50%;
+    height: 70px;
+}
+
+body {
+    margin:0;
+    padding:0;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #6c757d;
+    text-decoration: none;
+    
+}
+
+header {
+    background-color: #1f2937;
+    padding-top: 2px;
+}
+
+.heading, .logo {
+    color:#f8f9fa
+}
+.description {
+    color:#ced4da;
+    font-size: 1em;
+}
+
+.logo {
+    font-weight: 900;
+}
+
+
+/* ---------------------------------||-------------------------------------- */
+
+
+/* ---------------------------------Navbar Flexing---------------------------- */
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    gap:20px;
+    
+    
+   
+}
+.logo {
+    flex-grow: 1;
+    padding-left: 50px;
+}
+
+.link {
+    gap:20px;
+}
+
+/* .............................................................................. */
+
+/* --------------------------------------Heading-------------------------------- */
+/* 
+.header-text {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.header-image {
+    flex: 0;
+    align-self: flex-end;
+    
+}
+
+.description {
+
+}
+.heading {
+    order:2;
+    align-items: center;
+    padding-left: 150px;
+}
+.description{
+    order:1;
+    align-self: flex-end;
+    padding-top: 90px;
+    margin-left: -230px;
+    margin-top: -10px;
+    justify-content: flex-start;
+}
+
+.button {
+    max-height: 40px;
+    width: 100px;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+ */
+
+ /* -------------------------------Heading Styles------------------------ */
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top:40px;
+}
+
+.header-image {
+    
+    position: absolute;
+    left:80%;
+    top:20%;
+    flex-direction: column;
+    
+}
+
+
+
+.heading {
+    max-width: 802%;
+    font-size: 2.5em;
+    
+}
+.header-text {
+    max-width: 70%;
+    
+   
+}
+
+
+.description {
+    max-width: fit-content;
+    position: relative;
+    bottom: 3em;
+    left: px;
+}
+
+.button {
+    position: relative;
+    max-width: 70px;
+    height: 30px;
+    bottom:50px;
+}
+
+/* -----------------------------End of Heading Styles--------------------- */
+
+/* -----------------------------Body Styles-------------------------------- */
+
+.body-image {
+    display: flex;
+    flex:1;
+    gap:20px;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    border:1px solid blue;
+    width: 80px;
+    height: 80px;
+}
+
+
