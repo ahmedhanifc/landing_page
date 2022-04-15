@@ -1,5 +1,6 @@
 /*  Basic Styling */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&family=Merriweather:wght@300;400&family=Poppins:wght@300&family=Roboto+Mono&family=Square+Peg&display=swap');
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -31,6 +32,7 @@ a {
 header {
     background-color: #1f2937;
     padding-top: 2px;
+    padding-bottom: 40px;
 }
 
 .heading, .logo {
@@ -132,13 +134,11 @@ ul {
 .heading {
     max-width: 802%;
     font-size: 2.5em;
+    padding:10px 0;
     
 }
 .header-text {
-    
     max-width: 70%;
-    
-   
 }
 
 
@@ -181,8 +181,11 @@ ul {
 
 .image {
     display: flex;
-    border:3px #8ecae6;
-    border-style: inset;
+    border-radius: 25px;
+    border: 2px solid #184e77;
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
     width: 100px;
     height: 100px;
     justify-content: center;
@@ -202,3 +205,30 @@ ul {
     gap:1px;
 }
 
+.body {
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+/* ---------------------------------End of Body Styles ----------------- */
+
+
+/* ----------------------------------Quotation-------------------------- */
+
+.quotation {
+    background-color: #dee2e6;
+    padding:75px 150px 75px 150px;
+}
+
+.quote-text p {
+    font-size: 2.5em;
+    color: rgba(52,58,64,0.7);
+}
+
+.quote-quoter{
+    position: relative;
+    font-weight: 900;
+    bottom: 900%;
+    left: 80%;
+    font-family: 'Square Peg', cursive;
+    font-size: 2.4rem;
+}
