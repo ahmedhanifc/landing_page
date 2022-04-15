@@ -1,7 +1,9 @@
 /*  Basic Styling */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Roboto+Mono&display=swap');
 
 *, *::before, *::after {
     box-sizing: border-box;
+    
 }
 
 .header-image {
@@ -133,6 +135,7 @@ ul {
     
 }
 .header-text {
+    
     max-width: 70%;
     
    
@@ -160,15 +163,42 @@ ul {
 .body-image {
     display: flex;
     flex:1;
-    gap:20px;
+    gap:50px;
     justify-content: center;
+    padding-top: 10px;
+    
+}
+
+.body-text h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+    color: #081c15;
+    padding-top: 20px;
 }
 
 .image {
     display: flex;
-    border:1px solid blue;
-    width: 80px;
-    height: 80px;
+    border:3px #8ecae6;
+    border-style: inset;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    
+ 
 }
 
+.image-text {
+    max-width: 120px;
+    font-size: 0.8em;
+    color:rgba(0,0,0,0.5);
+}
+
+.image-container {
+    display:flex;
+    flex-direction: column;
+    gap:1px;
+}
 
