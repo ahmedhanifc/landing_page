@@ -5,6 +5,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: 'Akshar', sans-serif;
+    
 }
 
 .header-image {
@@ -292,4 +293,29 @@ ul {
     color: #fff;
     justify-content: center;
     align-items: center;
+}
+/* ---------------------------------End of Footer Text ------------------------------ */
+a:hover {
+    font-size: 17px;
+    color:#f1faee;
+    border-bottom: 1px solid #f1faee;
+    transition: color 2s;
+    
+}
+
+.button:hover {
+
+    background-color:#3882f6;
+    border: #3882f6;
+    border-radius: 5px;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    
+    
+
+}
+
+.btn:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
 }
